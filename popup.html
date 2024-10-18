@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Precise Line Bookmarker</title>
+  <style>
+    body { width: 300px; padding: 10px; font-family: Arial, sans-serif; }
+    button { margin-top: 10px; }
+    #bookmarkList { margin-top: 20px; }
+    .bookmark-item { 
+      border: 1px solid #ddd; 
+      padding: 10px; 
+      margin-bottom: 10px; 
+      background-color: #f9f9f9;
+    }
+    .bookmark-text { font-weight: bold; }
+    .bookmark-url { color: #0066cc; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h2>Precise Line Bookmarker</h2>
+  <button id="activateSelection">Select Line</button>
+  <div id="saveInfo" style="display: none;">
+    <p>Line selected. Click 'Save' to bookmark.</p>
+    <button id="saveBookmark">Save</button>
+  </div>
+  <div id="bookmarkInfo"></div>
+  <div id="bookmarkList"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

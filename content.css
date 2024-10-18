@@ -1,0 +1,4 @@
+.bookmark-highlight {
+    background-color: yellow;
+    transition: background-color 0.3s ease;
+  }
